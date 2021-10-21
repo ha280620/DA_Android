@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Doan_sosuckhoe</string>
+    <string name="action_home"></string>
+    <string name="action_calendar">Calendar</string>
+    <string name="action_QR">QR</string>
+    <string name="action_notify">Notify</string>
+    <string name="action_user">User</string>
+</resources>
