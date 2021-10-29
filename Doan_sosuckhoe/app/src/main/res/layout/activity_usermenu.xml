@@ -65,8 +65,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:fontFamily="sans-serif-black"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
                     android:text="Xin chào, Nguyễn Văn Hà"
                     android:textSize="16dp" />
             </LinearLayout>
