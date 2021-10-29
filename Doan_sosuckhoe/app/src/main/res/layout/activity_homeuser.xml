@@ -375,42 +375,25 @@
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/baohiemyte" />
+                                    app:srcCompat="@drawable/chisosuckhoecuaban" />
 
                                 <ImageView
                                     android:layout_weight="1"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/datlichuongthuoc" />
+                                    app:srcCompat="@drawable/taomaqr" />
 
                                 <ImageView
                                     android:layout_weight="1"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/datlichkham" />
+                                    app:srcCompat="@drawable/tuvanbacsi" />
 
                             </LinearLayout>
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:orientation="vertical">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                >
-
-
-
-                            </LinearLayout>
-
-
-                        </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
