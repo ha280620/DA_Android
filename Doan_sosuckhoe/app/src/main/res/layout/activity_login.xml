@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,151 +7,159 @@
     android:background="@drawable/background_login"
     tools:context=".Login">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_margin="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/AppLogoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="@id/glLogin1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_login" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_marginTop="30dp"
+    <android.support.constraint.Guideline
+        android:id="@+id/glLogin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20"/>
+
+    <RelativeLayout
+        android:id="@+id/RLRegister"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/glLogin1">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/logo_login" />
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:textSize="30dp"
-                android:text="Xin Chào"/>
+                android:text="Xin Chào,"
+                android:textSize="30dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:textSize="15dp"
-                android:text="Vui lòng đăng nhập để sử dụng dịch vụ "/>
+                android:text="Vui lòng đăng nhập để sử dụng dịch vụ"
+                android:textSize="15dp" />
 
             <EditText
-                android:id="@+id/txt_username"
-                android:paddingLeft="20dp"
+                android:id="@+id/txtLoginUsername"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Username/PhoneNumber"
-              />
+                android:hint="Username / SDT"
+                android:paddingLeft="20dp" />
 
             <EditText
-                android:id="@+id/txt_password"
-                android:paddingLeft="20dp"
+                android:id="@+id/txtLoginPassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="30dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Password"
-                android:inputType="textPassword"
-                />
+                android:hint="Mật khẩu"
+                android:paddingLeft="20dp" />
 
             <TextView
+                android:id="@+id/ForgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="right"
+                android:text="Quên mật khẩu?"
+                android:textColor="@color/purple_500" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:gravity="right"
-                android:text="Quên mật khẩu?" />
-
-
-            <LinearLayout
-                android:layout_marginTop="30dp"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:orientation="vertical">
 
                 <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:background="@drawable/custom_button"
-                    android:textColor="#fff"
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
                     android:text="Đăng Nhập"
-                    android:textSize="25dp"
-                    android:textFontWeight="400"
-                    />
-                <Button
-                    android:background="#0DBD73"
                     android:textColor="#fff"
-                    android:layout_width="80dp"
-                    android:layout_marginLeft="30px"
-                    android:layout_height="wrap_content"
-                    android:textSize="25dp"
                     android:textFontWeight="400"
-                    />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="35dp"
-                    android:gravity="center"
-                    android:text="Chưa có tài khoản? Đăng ký ngay" />
-
+                    android:textSize="25dp" />
 
                 <LinearLayout
-
-                    android:gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        app:srcCompat="@drawable/icon_phone"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="1800 7070"
-                        />
-
-                </LinearLayout
-                    >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                    android:id="@+id/LoginLinear3"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp">
 
-                    <ImageView
-                        android:layout_width="11dp"
-                        android:layout_height="20dp"
-                        app:srcCompat="@drawable/icon_email" />
+                    <ImageButton
+                        android:id="@+id/imgFingerPrint"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_fingerprint" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="catus13@gmail.com" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:paddingLeft="10dp"
+                            android:text="Đăng nhập bằng vân vay" />
+                    </RelativeLayout>
                 </LinearLayout>
 
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
 
 
+                    <android.support.constraint.Guideline
+                        android:id="@+id/glLogin2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintGuide_percent="0.55" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Chưa có tài khoản?"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/glLogin2"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/GotoRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Đăng ký ngay"
+                        android:textColor="#03A9F4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/glLogin2"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
             </LinearLayout>
-
-
         </LinearLayout>
-
-    </LinearLayout>
-
-</LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

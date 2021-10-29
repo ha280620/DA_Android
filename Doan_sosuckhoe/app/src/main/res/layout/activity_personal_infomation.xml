@@ -12,36 +12,39 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             tools:ignore="MissingConstraints"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
+
+            <RelativeLayout
                 android:gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="MissingConstraints"
-                >
+                android:layout_height="wrap_content">
 
                 <ImageView
-                    android:layout_marginLeft="20dp"
+                    android:id="@+id/GoBack"
+                    android:layout_alignParentLeft="true"
                     app:srcCompat="@drawable/icon_back"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
 
                     />
+
                 <TextView
-                    android:layout_marginLeft="25dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
                     android:fontFamily="sans-serif-black"
+                    android:gravity="center_horizontal"
                     android:text="Thông Tin Cá Nhân"
                     android:textColor="@color/black"
                     android:textSize="25dp" />
-            </LinearLayout>
+            </RelativeLayout>
 
             <LinearLayout
                 tools:ignore="MissingConstraints"
@@ -134,87 +137,97 @@
                             android:layout_height="wrap_content">
 
                         </LinearLayout>
+
                         <EditText
                             android:id="@+id/txt_hoten"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="48dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Họ và Tên"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
 
                         <EditText
                             android:id="@+id/txt_ngaysinh"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="48dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Ngày Tháng Năm Sinh"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <LinearLayout
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:gravity="center"
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
+
                             <CheckBox
-                                android:layout_marginLeft="50dp"
+
+                                android:layout_gravity="left"
                                 android:layout_weight="1"
-                                android:id="@+id/editnam"
+                                android:id="@+id/GenderMale"
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_height="48dp"
                                 android:text="Nam" />
+
                             <CheckBox
-                                android:id="@+id/editnu"
-                               android:layout_weight="1"
+                                android:id="@+id/GenderFemale"
+                                android:layout_gravity="left"
+                                android:layout_weight="1"
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_height="48dp"
                                 android:text="Nữ" />
                         </LinearLayout>
+
                         <EditText
                             android:id="@+id/txt_sdt"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Số điện thoại"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_msbh"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Mã số bảo hiểm y tế"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_cmnn"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Số hộ chiếu/CMNN/CCCD"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_diachi"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Địa chỉ"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
                         <EditText
                             android:id="@+id/txt_email"
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Email"
                             android:inputType="textPersonName" />
@@ -232,7 +245,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:text="Thông tin bệnh lý"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
@@ -254,7 +267,7 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Nhóm máu"
                             android:inputType="textPersonName" />
@@ -264,7 +277,7 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Cân nặng"
                             android:inputType="textPersonName" />
@@ -274,7 +287,7 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Chiều cao"
                             android:inputType="textPersonName" />
@@ -285,20 +298,17 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Tiểu sử"
                             android:inputType="textPersonName" />
-
-
-
                     </LinearLayout>
-                    <!--          thông tin bệnh lý end-->
+                    <!-- thông tin bệnh lý end-->
 
 
                     <LinearLayout
-                        android:layout_marginBottom="50dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="40dp"
+                        android:layout_marginTop="10dp"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"

@@ -19,29 +19,39 @@
             android:layout_height="wrap_content">
             <LinearLayout
                 android:gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:ignore="MissingConstraints"
                 >
 
-                <ImageView
-                    android:layout_marginLeft="20dp"
-                    app:srcCompat="@drawable/icon_back"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-
-                    />
-
-                <TextView
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
-                    android:fontFamily="sans-serif-black"
-                    android:text="Đặt lịch hẹn khám"
-                    android:textColor="@color/black"
-                    android:textSize="25dp" />
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/GoBack"
+                        android:layout_alignParentLeft="true"
+                        app:srcCompat="@drawable/icon_back"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center_horizontal"
+                        android:text="Đặt Lịch Hẹn Khám"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </RelativeLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -65,12 +75,11 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="20dp"
-                    android:layout_marginBottom="20dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:layout_marginTop="20dp"
+                        android:layout_margin="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -78,14 +87,13 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:text="Thông tin về lịch hẹn"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
                         <ImageView
-                            android:layout_marginTop="6dp"
+                            android:layout_margin="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
 
@@ -96,66 +104,71 @@
                             android:layout_height="wrap_content">
 
                         </LinearLayout>
+
                         <EditText
                             android:id="@+id/txt_benhvien"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Bệnh viện"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
 
                         <EditText
                             android:id="@+id/txt_khoa"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Khoa"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_bacsi"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Bác sĩ"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_tgian"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Thời gian"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_lydokham"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Lý do khám"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_ghichuthem"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Ghi chú thêm"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
 
 
                     </LinearLayout>
                     <LinearLayout
-                        android:layout_marginTop="20dp"
+                        android:layout_margin="10dp"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
@@ -167,12 +180,11 @@
                             android:layout_height="wrap_content"
                             android:text="Lưu"
                             android:textSize="20dp"
-
                             />
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_marginBottom="20dp"
+                        android:layout_margin="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -181,15 +193,117 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:fontFamily="sans-serif-black"
                             android:text="Lịch đã đặt"
                             android:textColor="@color/black"
                             android:textSize="25dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerInParent="true"
+                                android:layout_toLeftOf="@id/LinearLichKham1"
+                                app:srcCompat="@drawable/icon_medicine" />
+
+                            <LinearLayout
+                                android:id="@+id/LinearLichKham1"
+                                android:layout_centerInParent="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-black"
+                                    android:text="Lịch hẹn khám"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="8:30 bệnh viện K"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_margin="10dp"
+                                android:layout_toRightOf="@id/LinearLichKham1"
+                                android:layout_centerInParent="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/custom_medicine"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                app:srcCompat="@drawable/icon_medicine"
+                                android:layout_weight="1"
+
+                                />
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-black"
+                                    android:text="Lịch hẹn khám"
+                                    android:textColor="@color/black"
+                                    android:textSize="25dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="8:30 bệnh viện K"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/icon_left"
+
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_userqr"
                             android:orientation="horizontal">
 
@@ -239,107 +353,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_medicine"
-                                android:layout_weight="1"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_weight="1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="sans-serif-black"
-                                    android:text="Lịch hẹn khám"
-                                    android:textColor="@color/black"
-                                    android:textSize="25dp" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="8:30 bệnh viện K"
-                                    android:textColor="@color/black"
-                                    android:textSize="15dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                android:layout_weight="1"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_medicine"
-                                android:layout_weight="1"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_weight="1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="sans-serif-black"
-                                    android:text="Lịch hẹn khám"
-                                    android:textColor="@color/black"
-                                    android:textSize="25dp" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="8:30 bệnh viện K"
-                                    android:textColor="@color/black"
-                                    android:textSize="15dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                android:layout_weight="1"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_userqr"
                             android:orientation="horizontal">
 
@@ -389,7 +403,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_userqr"
                             android:orientation="horizontal">
 
