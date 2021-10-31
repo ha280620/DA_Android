@@ -4,6 +4,7 @@
     <string name="action_calendar" translatable="false">Calendar</string>
     <string name="action_QR" translatable="false">QR</string>
     <string name="action_notify" translatable="false">Notify</string>
+    <string name="action_user" translatable="false">User</string>
     <string name="login">ĐĂNG NHẬP</string>
     <string name="register">ĐĂNG KÝ</string>
     <string name="username">Tên Tài Khoản / Số Điện Thoại</string>
@@ -26,7 +27,6 @@
     <string name="Today">Hôm nay</string>
     <string name="PillReminder">Lịch uống thuốc</string>
     <string name="Appointment">Lịch hẹn khám</string>
-    <string name="Pill">Panacetamol - Sau bữa ăn 30'</string>
     <string name="appointmentdetails">8h30 - Bệnh viện K</string>
     <string name="yougood">Bạn khỏe chứ?</string>
     <string name="checkbmi">ĐO CHỈ SỐ NGAY</string>
@@ -85,9 +85,7 @@
     <string name="otherreminder">Lịch đã đặt</string>
     <string name="pillinfo">Thông tin về thuốc</string>
     <string name="pillsreminder">Đặt lịch uống thuốc</string>
-
-
-
+    <string name="Pill">Panacetamol - Sau bữa ăn 30\'</string>
 
 
 </resources>
