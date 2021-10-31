@@ -1,65 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green">
 
+
     <LinearLayout
-        tools:ignore="MissingConstraints"
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
         <LinearLayout
-            tools:ignore="MissingConstraints"
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <LinearLayout
-                android:gravity="center"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:ignore="MissingConstraints"
-                >
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
 
                 <ImageView
-                    app:srcCompat="@drawable/icon_back"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-
-                    />
-                <ImageView
-                    android:layout_marginLeft="250dp"
-                    app:srcCompat="@drawable/user_ngonnguvn"
+                    android:id="@+id/btnback"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/icon_back"
+
                     />
+
                 <ImageView
+                    android:id="@+id/btnVN"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_toLeftOf="@+id/btnEN"
+                    app:srcCompat="@drawable/icon_ellipse" />
 
-                    app:srcCompat="@drawable/user_ngonngua"
-                    android:layout_width="44dp"
-                    android:layout_height="44dp"
-                    />
+                <ImageView
+                    android:id="@+id/btnEN"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/user_ngonngua" />
 
-            </LinearLayout>
-
+            </RelativeLayout>
 
 
             <LinearLayout
-                tools:ignore="MissingConstraints"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
                 <TextView
-                    android:id="@+id/xinchao_usermenu"
-                    android:layout_marginLeft="20dp"
-                    android:fontFamily="sans-serif-black"
-                    android:textSize="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Xin chào, Nguyễn Văn Hà" />
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/helloUser"
+                    android:textSize="16dp" />
             </LinearLayout>
         </LinearLayout>
         <!--phần đầu-->
@@ -80,23 +89,338 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:gravity="center"
-                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
                         <TextView
-                            android:gravity="center"
-                            android:textSize="16dp"
+                            android:paddingTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Mã QR của bạn" />
+                            android:gravity="center"
+                            android:text="@string/urqr"
+                            android:textSize="16dp" />
 
                         <ImageView
-                            android:layout_marginTop="10dp"
-                            app:srcCompat="@drawable/user_qr"
                             android:layout_width="180dp"
                             android:layout_height="180dp"
-                            />
+                            android:layout_marginTop="10dp"
+                            app:srcCompat="@drawable/user_qr" />
+
+
+                    </LinearLayout>
+
+                    //Personal Info
+                    <LinearLayout
+                        android:paddingTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/personalprofile"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+                        //Icon Personal Info
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/icon_PersonalInfo"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/icon_thongtincanhan" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_PersonalInfo"
+                                android:text="@string/personalprofile"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
+                        //Icon Health Profile
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/icon_HealthProfile"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/icon_hssk" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_HealthProfile"
+                                android:text="@string/healthprofile"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
+                        //Icon Vaccinated Certificate
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/VaccinatedCertifcate"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/user_hososuckhoe" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/VaccinatedCertifcate"
+                                android:text="@string/vaccinated"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
+                        //Icon BMI
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/icon_BMI"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="10dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/user_chisosuckhoe" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_BMI"
+                                android:text="@string/bmi"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_margin="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
+                        //Icon Pills Reminder
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/icon_PillReminder"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/icon_lich" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_PillReminder"
+                                android:text="@string/yourpillreminder"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_margin="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                    //Support
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/support"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/icon_OnlineSupport"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/user_hotrotructuyen" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_OnlineSupport"
+                                android:text="@string/onlinesupport"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/icon_Language"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/user_ngonngu" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_Language"
+                                android:text="@string/language"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/custom_userqr"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/icon_RulenTerms"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/user_dieukhoanvachinhsach" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_RulenTerms"
+                                android:text="@string/terms"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
+
+                        </RelativeLayout>
 
 
                     </LinearLayout>
@@ -107,14 +431,15 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:layout_marginLeft="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Thông tin cá nhân"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/Security"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
-                        <LinearLayout
+                        <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_marginTop="10dp"
@@ -122,43 +447,34 @@
                             android:orientation="horizontal">
 
                             <ImageView
+                                android:id="@+id/icon_FingerPrint"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/icon_thongtincanhan"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/icon_vantay" />
 
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
+                            <TextView
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Thông tin cá nhân"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_FingerPrint"
+                                android:text="@string/biosmetric"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
 
                             <ImageView
-                                android:id="@+id/ttcn"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="118dp"
-                                app:srcCompat="@drawable/icon_left"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
 
-                                />
+                        </RelativeLayout>
 
-                        </LinearLayout>
-                        <LinearLayout
+                        <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
                             android:layout_marginTop="10dp"
@@ -166,425 +482,34 @@
                             android:orientation="horizontal">
 
                             <ImageView
+                                android:id="@+id/icon_ChangePassword"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/icon_hssk"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/user_doimatkhau" />
 
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
+                            <TextView
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="10dp"
-                                    android:text="Hồ sơ sức khỏe"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:id="@+id/hs_sk"
-                                android:layout_marginLeft="138dp"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/user_hososuckhoe"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Chứng nhận tiêm chủng"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:id="@+id/cn_tc"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="72dp"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/user_chisosuckhoe"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Chỉ số sức khỏe"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:id="@+id/cs_sk"
-                                android:layout_marginLeft="134dp"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/icon_lich"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Lịch uống thuốc của bạn"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:layout_marginLeft="66dp"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_marginTop="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Hỗ trợ"
-                            android:textColor="@color/black"
-                            android:textSize="18dp" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/user_hotrotructuyen"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Hỗ trợ trực tuyến"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:layout_marginLeft="128dp"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/user_ngonngu"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="10dp"
-                                    android:text="Ngôn ngữ"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:layout_marginLeft="184dp"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/user_dieukhoanvachinhsach"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Điều khoản và chính sách"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_ChangePassword"
+                                android:text="@string/changepassword"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
 
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="58dp"
-                                app:srcCompat="@drawable/icon_left"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
 
-                                />
+                        </RelativeLayout>
 
-                        </LinearLayout>
-
-
-
-
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_marginTop="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Cài đặt bảo mật"
-                            android:textColor="@color/black"
-                            android:textSize="18dp" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/icon_vantay"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Đăng nhập bằng vân tay"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:layout_marginLeft="70dp"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="70dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/custom_userqr"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/user_doimatkhau"
-
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="10dp"
-                                    android:text="Đổi mật khẩu"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
-
-                            <ImageView
-                                android:layout_marginLeft="158dp"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                app:srcCompat="@drawable/icon_left"
-
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
+                        <RelativeLayout
                             android:layout_marginBottom="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="70dp"
@@ -593,49 +518,34 @@
                             android:orientation="horizontal">
 
                             <ImageView
+                                android:id="@+id/icon_LogOut"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="10dp"
-                                app:srcCompat="@drawable/user_dangxuat"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/user_dangxuat" />
 
-                                />
-
-                            <LinearLayout
-                                android:layout_gravity="center"
-                                android:layout_width="wrap_content"
+                            <TextView
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:orientation="vertical">
-
-                                <TextView
-                                    android:id="@+id/txt_logout"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="Đăng xuất"
-                                    android:textColor="@color/black"
-                                    android:textSize="18dp" />
-
-                            </LinearLayout>
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/icon_LogOut"
+                                android:text="@string/logout"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
 
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                android:layout_marginLeft="180dp"
-                                app:srcCompat="@drawable/icon_left"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="10dp"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/icon_left" />
 
-                                />
-
-                        </LinearLayout>
-
-
-
+                        </RelativeLayout>
 
                     </LinearLayout>
-
-
 
                 </LinearLayout>
 
@@ -646,4 +556,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

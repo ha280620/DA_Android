@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,37 +12,39 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             tools:ignore="MissingConstraints"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
+
+            <RelativeLayout
                 android:gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="MissingConstraints"
-                >
+                android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/back"
-                    android:layout_marginLeft="20dp"
+                    android:id="@+id/GoBack"
+                    android:layout_alignParentLeft="true"
                     app:srcCompat="@drawable/icon_back"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
 
                     />
+
                 <TextView
-                    android:layout_marginLeft="25dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
                     android:fontFamily="sans-serif-black"
-                    android:text="Thông Tin Cá Nhân"
+                    android:gravity="center_horizontal"
+                    android:text="@string/personalprofile"
                     android:textColor="@color/black"
                     android:textSize="25dp" />
-            </LinearLayout>
+            </RelativeLayout>
 
             <LinearLayout
                 tools:ignore="MissingConstraints"
@@ -73,14 +75,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <LinearLayout
+                        <android.support.constraint.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center">
+                            android:layout_height="match_parent">
 
                             <ImageView
                                 android:id="@+id/imageView3"
                                 android:layout_width="180dp"
+
                                 android:layout_height="180dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +90,7 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintVertical_bias="1.0"
-                                app:srcCompat="@drawable/img_user" />
+                                app:srcCompat="@drawable/tt_user" />
 
                             <ImageView
                                 android:layout_width="50dp"
@@ -104,7 +106,7 @@
                                 app:srcCompat="@drawable/tt_camera" />
 
 
-                        </LinearLayout>
+                        </android.support.constraint.ConstraintLayout>
 
 
                     </LinearLayout>
@@ -119,7 +121,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:text="Thông tin chung"
+                            android:text="@string/basicinfo"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -135,90 +137,100 @@
                             android:layout_height="wrap_content">
 
                         </LinearLayout>
+
                         <EditText
                             android:id="@+id/txt_hoten"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="48dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Họ và Tên"
-                            android:inputType="textPersonName" />
+                            android:hint="@string/fullname"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
 
                         <EditText
                             android:id="@+id/txt_ngaysinh"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="48dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Ngày Tháng Năm Sinh"
-                            android:inputType="datetime" />
+                            android:hint="@string/dob"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <LinearLayout
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:gravity="center"
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
+
                             <CheckBox
-                                android:layout_marginLeft="50dp"
+
+                                android:layout_gravity="left"
                                 android:layout_weight="1"
-                                android:id="@+id/nam"
+                                android:id="@+id/GenderMale"
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Nam" />
+                                android:layout_height="48dp"
+                                android:text="@string/male" />
+
                             <CheckBox
-                                android:id="@+id/nu"
-                               android:layout_weight="1"
+                                android:id="@+id/GenderFemale"
+                                android:layout_gravity="left"
+                                android:layout_weight="1"
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Nữ" />
+                                android:layout_height="48dp"
+                                android:text="@string/female" />
                         </LinearLayout>
+
                         <EditText
                             android:id="@+id/txt_sdt"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Số điện thoại"
-                            android:inputType="phone" />
+                            android:hint="@string/phonenumber"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_msbh"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Mã số bảo hiểm y tế"
-                            android:inputType="text" />
+                            android:hint="@string/healthid"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
-                            android:id="@+id/txt_cmnd"
-                            android:paddingLeft="20dp"
+                            android:id="@+id/txt_cmnn"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Số hộ chiếu/CMNN/CCCD"
-                            android:inputType="textPersonName" />
+                            android:hint="@string/personalid"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
+
                         <EditText
                             android:id="@+id/txt_diachi"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Địa chỉ"
-                            android:inputType="textPersonName" />
+                            android:hint="@string/address"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
                         <EditText
                             android:id="@+id/txt_email"
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
                             android:hint="Email"
-                            android:inputType="textWebEmailAddress" />
+                            android:inputType="textPersonName" />
 
 
                     </LinearLayout>
@@ -233,8 +245,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text="Thông tin bệnh lý"
+                            android:layout_margin="10dp"
+                            android:text="@string/personalhealthinfo"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -255,9 +267,9 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Nhóm máu"
+                            android:hint="@string/bloodtype"
                             android:inputType="textPersonName" />
 
                         <EditText
@@ -265,9 +277,9 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Cân nặng"
+                            android:hint="@string/weight"
                             android:inputType="textPersonName" />
 
                         <EditText
@@ -275,9 +287,9 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Chiều cao"
+                            android:hint="@string/height"
                             android:inputType="textPersonName" />
                         <EditText
                             android:id="@+id/txt_tieusu"
@@ -286,42 +298,37 @@
                             android:paddingLeft="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Tiểu sử"
-                            android:inputType="textMultiLine" />
-
-
-
+                            android:hint="@string/profile"
+                            android:inputType="textPersonName" />
                     </LinearLayout>
-                    <!--          thông tin bệnh lý end-->
+                    <!-- thông tin bệnh lý end-->
 
 
                     <LinearLayout
-                        android:layout_marginBottom="50dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="40dp"
+                        android:layout_marginTop="10dp"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
                         <Button
-                            android:id="@+id/btn_cancel"
                             android:layout_marginRight="50dp"
                             android:background="@drawable/custom_red"
                             android:textColor="#fff"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="Hủy bỏ"
+                            android:text="@string/Cancel"
                             android:textSize="20dp"
 
                             />
                         <Button
-                            android:id="@+id/btn_save"
                             android:background="@drawable/custom_button"
                             android:textColor="#fff"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="Lưu"
+                            android:text="@string/Save"
                             android:textSize="20dp"
 
                             />
@@ -336,4 +343,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

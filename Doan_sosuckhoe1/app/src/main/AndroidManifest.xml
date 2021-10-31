@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.doan_sosuckhoe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Doan_sosuckhoe">
+        <activity
+            android:name=".PersonalInfomation"
+            android:exported="true" />
+        <activity
+            android:name=".VacinatedCetification"
+            android:exported="true" />
+        <activity
+            android:name=".QRCode"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyOTP"
+            android:exported="false" />
+        <activity
+            android:name=".Medicalappointment"
+            android:exported="true" />
+        <!--activity
+            android:name=".Takemedicines"
+            android:exported="true" />-->
+        <activity
+            android:name=".Reminder"
+            android:exported="true" />
+        <activity
+            android:name=".Healthindex"
+            android:exported="true" />
+        <activity
+            android:name=".Homepage"
+            android:exported="true" />
+
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

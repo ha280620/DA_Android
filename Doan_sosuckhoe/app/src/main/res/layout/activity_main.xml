@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,37 +7,51 @@
     android:background="@drawable/background_android"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:onClick="vaodangnhap"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:ignore="OnClick">
+    <ImageView
+        android:id="@+id/AppLogo"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toTopOf="@id/glLanding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/logo_android" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="280dp"
-            app:srcCompat="@drawable/logo_android" />
+    <android.support.constraint.Guideline
+        android:id="@+id/glLanding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <RelativeLayout
+        android:id="@+id/RLLanding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/glLanding">
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:id="@+id/AppName"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
+            android:paddingBottom="15dp"
             android:text="CATUS-13"
             android:textSize="30dp" />
 
         <TextView
-            android:gravity="center"
-            android:id="@+id/textView2"
+            android:id="@+id/Slogan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/AppName"
+            android:gravity="center"
             android:text="Sổ sức khỏe điện tử"
             android:textSize="15dp" />
-    </LinearLayout>
 
-</LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

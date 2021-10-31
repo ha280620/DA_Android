@@ -1,152 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_login"
     tools:context=".Register">
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_margin="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/logo_login" />
+    <ImageView
+        android:id="@+id/AppLogoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="@id/glregister1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_login" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glregister1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20"/>
+
+    <RelativeLayout
+        android:id="@+id/RLRegister"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/glregister1">
+
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Xin Chào"
+                android:text="@string/LGhello"
                 android:textSize="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Vui lòng cung cấp thông tin chính xác để chúng tôi cung cấp dịch vụ ngay cho bạn"
+                android:text="@string/RGslogan"
                 android:textSize="15dp" />
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
                 android:id="@+id/txt_fullname"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="FullName"
-                android:paddingLeft="20dp"
-                app:counterEnabled="true">
+                android:hint="@string/fullname"
+                android:paddingLeft="20dp" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
-                    android:hint="FullName"
-                    android:inputType="text"
-                    android:paddingLeft="20dp"
-                    app:errorEnabled="true" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/phonenumber"
-                android:paddingLeft="20dp"
+            <EditText
+                android:id="@+id/txt_phonenumber"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                app:counterEnabled="true"
-
-                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="PhoneNumber"   >
+                android:hint="@string/phonenumber"
+                android:paddingLeft="20dp" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="48dp" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
                 android:id="@+id/txt_password"
-                android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                app:counterEnabled="true"
-                android:layout_marginTop="30dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Password"
-                app:passwordToggleEnabled="true">
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:inputType="textPassword" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
                 android:id="@+id/txt_confirmpassword"
-                android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                app:counterEnabled="true"
-                android:layout_marginTop="30dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Confirm Password"
-                app:passwordToggleEnabled="true"
-                >
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:inputType="textPassword" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-
-
+                android:hint="@string/confirmpassword"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp" />
 
 
             <CheckBox
                 android:id="@+id/checkBox"
                 android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:layout_marginTop="10dp"
-                android:text="Tôi đã đọc và đồng ý với các chính sách và điều khoản của Catus-13" />
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:minHeight="48dp"
+                android:text="@string/termofuse" />
 
             <LinearLayout
                 android:layout_width="match_parent"
+
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
+
                 <Button
-                    android:id="@+id/btn_dangky"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/custom_button"
-                    android:text="Đăng Ký"
+                    android:text="@string/register"
                     android:textColor="#fff"
                     android:textFontWeight="400"
                     android:textSize="25dp" />
                 />
 
-                <TextView
-                    android:gravity="center"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginTop="30dp"
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Đã có tài khoản? Đăng Nhập ngay" />
+                    android:paddingTop="10dp">
+
+                    <android.support.constraint.Guideline
+                        android:id="@+id/glregister2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintGuide_percent="0.5" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/alreadyhaveaccount"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/glregister2"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/backtologin"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/gotologin"
+                        android:textColor="#03A9F4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/glregister2"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+
             </LinearLayout>
 
 
         </LinearLayout>
 
 
-    </LinearLayout>
-</LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
