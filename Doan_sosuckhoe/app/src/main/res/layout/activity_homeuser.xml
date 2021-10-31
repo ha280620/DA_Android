@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -23,10 +23,8 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/Menu_icon"
-                    android:layout_centerInParent="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_margin="10dp"
+                    android:id="@+id/chuyen_menu"
+                    android:layout_marginLeft="10dp"
                     app:srcCompat="@drawable/menu"
                     android:layout_width="50dp"
                     android:layout_height="50dp"/>
@@ -66,8 +64,11 @@
 
             </RelativeLayout>
 
+                    android:id="@+id/txt_xinchao"
+                    android:text="Xin chào Nhan"/>
+            </LinearLayout>
         </LinearLayout>
-<!--phần đầu-->
+        <!--phần đầu-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -79,10 +80,11 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
-                    android:layout_margin="20dp"
-                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -148,12 +150,20 @@
                                 android:layout_weight="1"
                                 app:srcCompat="@drawable/icon_left" />
 
-                        </RelativeLayout>
+                        </LinearLayout>
 
-                        <RelativeLayout
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="10dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="10dp"
                             android:background="@drawable/custom_medicine"
                             android:orientation="horizontal">
 
@@ -217,16 +227,18 @@
 <!--                    thuốc-->
 
                     <LinearLayout
-                        android:layout_marginTop="20dp"
-                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
 
                         <android.support.constraint.ConstraintLayout
                             android:orientation="horizontal"
                             android:background="@drawable/custom_medical1"
                             android:layout_width="match_parent"
-                            android:layout_height="150dp">
+                            android:layout_height="150dp"
+                            android:background="@drawable/custom_medical1"
+                            android:orientation="horizontal">
 
                             <android.support.constraint.ConstraintLayout
                                 android:id="@+id/User_constraint1"
@@ -261,6 +273,23 @@
                                 <Button
                                     android:id="@+id/DoChiSoNgay"
                                     android:layout_width="200dp"
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hôm nay bạn vẫn khỏe chứ"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp" />
+
+                                <Button
+                                    android:id="@+id/dosk"
+                                    android:layout_width="250dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="10dp"
                                     android:background="@drawable/custom_button"
@@ -288,7 +317,7 @@
                         </android.support.constraint.ConstraintLayout>
 
                     </LinearLayout>
-<!--        đo chỉ số-->
+                    <!--        đo chỉ số-->
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -313,13 +342,11 @@
                             android:orientation="vertical">
 
                             <LinearLayout
-                                android:layout_margin="10dp"
-                                android:layout_weight="3"
-                                android:layout_width="match_parent"
-                                android:layout_height="0dp">
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
 
                                 <ImageView
-                                    android:layout_weight="1"
+                                    android:id="@+id/hssk"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
@@ -334,7 +361,7 @@
                                     app:srcCompat="@drawable/khaibaoyte" />
 
                                 <ImageView
-                                    android:layout_weight="1"
+                                    android:id="@+id/cntc"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
@@ -354,6 +381,8 @@
                                     android:layout_gravity="center"
                                     app:srcCompat="@drawable/baohiemyte" />
 
+                                    />
+
                                 <ImageView
                                     android:layout_weight="1"
                                     android:layout_width="120dp"
@@ -363,6 +392,10 @@
 
                                 <ImageView
                                     android:layout_weight="1"
+                                    />
+
+                                <ImageView
+                                    android:id="@+id/datlichkham"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
@@ -377,6 +410,21 @@
 
                                 <ImageView
                                     android:layout_weight="1"
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/chisosk"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
@@ -384,6 +432,10 @@
 
                                 <ImageView
                                     android:layout_weight="1"
+                                    />
+
+                                <ImageView
+                                    android:id="@+id/tao_qr"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
@@ -391,6 +443,7 @@
 
                                 <ImageView
                                     android:layout_weight="1"
+                                    android:id="@+id/tvbs"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_gravity="center"
@@ -419,19 +472,21 @@
 
 
                     </LinearLayout>
-<!--                    bạn cần gì-->
+                    <!--                    bạn cần gì-->
 
                     <LinearLayout
-                        android:layout_marginTop="20dp"
-                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
 
                         <android.support.constraint.ConstraintLayout
                             android:orientation="horizontal"
                             android:background="@drawable/custom_medical1"
                             android:layout_width="match_parent"
-                            android:layout_height="150dp">
+                            android:layout_height="150dp"
+                            android:background="@drawable/custom_medical1"
+                            android:orientation="horizontal">
 
                             <android.support.constraint.ConstraintLayout
                                 android:id="@+id/User_constraint2"
@@ -531,6 +586,7 @@
                                 android:layout_centerInParent="true"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_marginLeft="10dp"
                                 android:orientation="vertical">
 
@@ -591,6 +647,7 @@
                             </LinearLayout>
 
                             <ImageView
+                                android:id="@+id/btn_hssk"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_alignParentRight="true"
@@ -606,4 +663,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

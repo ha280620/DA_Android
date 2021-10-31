@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862928213701",
+    "project_id": "so-y-te-dien-tu",
+    "storage_bucket": "so-y-te-dien-tu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862928213701:android:e4f96df22caa300996c2ac",
+        "android_client_info": {
+          "package_name": "com.example.doan_sosuckhoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862928213701-p7eti29ot8su5hlc9et03cq1331uvng8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doan_sosuckhoe",
+            "certificate_hash": "b913448127cdedf37d2139a5724835651204e347"
+          }
+        },
+        {
+          "client_id": "862928213701-sg60p54ct2vhhfg0c1d2airen5qe6a8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa_7PVF5luv4hteWJwG8M_d7zgs9M4XcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862928213701-sg60p54ct2vhhfg0c1d2airen5qe6a8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

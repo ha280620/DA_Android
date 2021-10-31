@@ -74,8 +74,13 @@
                 android:hint="@string/password"
                 android:paddingLeft="20dp" />
 
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
             <TextView
-                android:id="@+id/ForgotPassword"
+                android:id="@+id/tv_resetPass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -93,6 +98,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:id="@+id/btn_dangnhap"
                     android:background="@drawable/custom_button"
                     android:text="@string/login"
                     android:textColor="#fff"
@@ -127,6 +133,8 @@
                 </LinearLayout>
 
                 <android.support.constraint.ConstraintLayout
+                <TextView
+                    android:id="@+id/tv_signin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="10dp">
