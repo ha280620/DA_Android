@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void vaodangnhap(View view) {
 
-        Toast.makeText(getApplicationContext(), "    Loading............", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "    Loading...", Toast.LENGTH_LONG).show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
             }
-        }, 2000);
+        }, 1000);
     }
 
 }

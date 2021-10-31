@@ -178,7 +178,7 @@
                             android:textColor="#fff"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="Save"
+                            android:text="@string/Save"
                             android:textSize="20dp"
                             />
                     </LinearLayout>
