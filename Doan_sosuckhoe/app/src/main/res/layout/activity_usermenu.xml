@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green">
-
 
     <LinearLayout
         tools:ignore="MissingConstraints"
@@ -54,6 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:id="@+id/xinchao_usermenu"
                     android:layout_marginLeft="20dp"
                     android:fontFamily="sans-serif-black"
                     android:textSize="16dp"
@@ -148,6 +148,7 @@
                             </LinearLayout>
 
                             <ImageView
+                                android:id="@+id/ttcn"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
@@ -191,6 +192,7 @@
                             </LinearLayout>
 
                             <ImageView
+                                android:id="@+id/hs_sk"
                                 android:layout_marginLeft="138dp"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
@@ -234,6 +236,7 @@
                             </LinearLayout>
 
                             <ImageView
+                                android:id="@+id/cn_tc"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_gravity="center"
@@ -277,6 +280,7 @@
                             </LinearLayout>
 
                             <ImageView
+                                android:id="@+id/cs_sk"
                                 android:layout_marginLeft="134dp"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
@@ -605,6 +609,7 @@
                                 android:orientation="vertical">
 
                                 <TextView
+                                    android:id="@+id/txt_logout"
                                     android:layout_marginLeft="10dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -641,4 +646,4 @@
 
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
