@@ -54,10 +54,15 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/UserImage"
                     android:layout_alignParentLeft="true"
-                    android:layout_margin="10dp"
-                    android:textStyle="bold"
-                    android:text="Xin chào, Nguyễn Văn Hà"
-                    android:textSize="16dp" />
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/helloUser"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
 
@@ -89,7 +94,7 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:fontFamily="sans-serif-black"
-                            android:text="Hôm Nay"
+                            android:text="@string/Today"
                             android:textColor="@color/black"
                             android:textSize="25dp" />
 
@@ -120,14 +125,14 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-black"
-                                    android:text="Lịch hẹn khám"
+                                    android:text="@string/PillReminder"
                                     android:textColor="@color/black"
                                     android:textSize="25dp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="8:30 bệnh viện K"
+                                    android:text="@string/Pill"
                                     android:textColor="@color/black"
                                     android:textSize="15dp" />
 
@@ -172,14 +177,14 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-black"
-                                    android:text="Lịch hẹn khám"
+                                    android:text="@string/PillReminder"
                                     android:textColor="@color/black"
                                     android:textSize="25dp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="8:30 bệnh viện K"
+                                    android:text="@string/Pill"
                                     android:textColor="@color/black"
                                     android:textSize="15dp" />
 
@@ -203,7 +208,7 @@
                             android:fontFamily="sans-serif-black"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="Xem tất cả"
+                            android:text="@string/viewall"
                             android:textSize="17dp" />
 
                     </LinearLayout>
@@ -245,7 +250,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_horizontal"
-                                    android:text="Bạn khỏe chứ?"
+                                    android:text="@string/yougood"
                                     android:textColor="@color/black"
                                     android:textSize="20dp"
                                     app:layout_constraintBottom_toTopOf="@id/glHomeUser1"
@@ -259,7 +264,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="10dp"
                                     android:background="@drawable/custom_button"
-                                    android:text="ĐO CHỈ SỐ NGAY"
+                                    android:text="@string/checkbmi"
                                     android:textColor="#fff"
                                     android:textSize="20dp"
                                     app:layout_constraintBottom_toBottomOf="parent"
@@ -296,7 +301,7 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:fontFamily="sans-serif-black"
-                            android:text="Bạn Cần Gì"
+                            android:text="@string/urneed"
                             android:textColor="@color/black"
                             android:textSize="25dp" />
 
@@ -450,7 +455,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_horizontal"
-                                    android:text="Chưa khai báo y tế?"
+                                    android:text="@string/notkbyt"
                                     android:textColor="@color/black"
                                     android:textSize="20dp"
                                     app:layout_constraintBottom_toTopOf="@id/glHomeUser2"
@@ -464,7 +469,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="10dp"
                                     android:background="@drawable/custom_button"
-                                    android:text="KHAI BÁO NGAY"
+                                    android:text="@string/kbnow"
                                     android:textColor="#fff"
                                     android:textSize="20dp"
                                     app:layout_constraintBottom_toBottomOf="parent"
@@ -533,7 +538,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-black"
-                                    android:text="Đặt khám"
+                                    android:text="@string/setappointment"
                                     android:layout_gravity="center_horizontal"
                                     android:textColor="@color/black"
                                     android:textSize="25dp" />
@@ -578,7 +583,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-black"
-                                    android:text="Hồ sơ sức khỏe"
+                                    android:text="@string/personalhealthinfo"
                                     android:layout_gravity="center_horizontal"
                                     android:textColor="@color/black"
                                     android:textSize="25dp" />

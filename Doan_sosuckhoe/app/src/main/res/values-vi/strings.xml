@@ -1,32 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Doan_sosuckhoe</string>
-    <string name="action_home" translatable="false"></string>
-    <string name="action_calendar" translatable="false">Calendar</string>
-    <string name="action_QR" translatable="false">QR</string>
-    <string name="action_notify" translatable="false">Notify</string>
+    <string name="app_name">Cactus-13</string>
+    <string name="action_notify">Thông Báo</string>
     <string name="login">ĐĂNG NHẬP</string>
-    <string name="register">ĐĂNG KÝ</string>
     <string name="username">Tên Tài Khoản / Số Điện Thoại</string>
+    <string name="register">ĐĂNG KÝ</string>
     <string name="confirmpassword">Xác Nhận Mật Khẩu</string>
     <string name="password">Mật Khẩu</string>
     <string name="LGhello">Xin Chào,</string>
     <string name="RGHello">Xin Chào,</string>
     <string name="gotoregister">Đăng ký ngay!</string>
-    <string name="gotologin">Đăng nhập ngay!</string>
-    <string name="alreadyhaveaccount">Đã có tài khoản?</string>
-    <string name="donothaveaccount">Chưa có tài khoản</string>
-    <string name="LGslogan">Vui lòng đăng nhập để sử dụng dịch vụ</string>
-    <string name="RGslogan">Vui lòng cung cấp thông tin chính xác để chúng tôi cung cấp dịch vụ ngay cho bạn</string>
-    <string name="forgotmypassword">Quên mật khẩu?</string>
-    <string name="fingerprint">Đăng nhập bằng vân tay</string>
-    <string name="fullname">Họ và tên</string>
-    <string name="phonenumber">Số điện thoại</string>
     <string name="termofuse">Tôi đã đọc và đồng ý với các điều khoản và chính sách của Catus-13</string>
+    <string name="fingerprint">Đăng nhập bằng vân tay</string>
+    <string name="forgotmypassword">Quên mật khẩu?</string>
+    <string name="RGslogan">Vui lòng cung cấp thông tin chính xác để chúng tôi cung cấp dịch vụ ngay cho bạn</string>
+    <string name="LGslogan">Vui lòng đăng nhập để sử dụng dịch vụ</string>
+    <string name="donothaveaccount">Chưa có tài khoản</string>
+    <string name="alreadyhaveaccount">Đã có tài khoản?</string>
+    <string name="fullname">Họ và Tên</string>
+    <string name="phonenumber">Số điện thoại</string>
+    <string name="gotologin">Đăng nhập ngay!</string>
     <string name="helloUser">Xin Chào, Nguyễn Văn A</string>
     <string name="Today">Hôm nay</string>
     <string name="PillReminder">Lịch uống thuốc</string>
     <string name="Appointment">Lịch hẹn khám</string>
-    <string name="Pill">Panacetamol - Sau bữa ăn 30'</string>
+    <string name="Pill">Panacetamol - Sau bữa ăn 30\'</string>
     <string name="appointmentdetails">8h30 - Bệnh viện K</string>
     <string name="yougood">Bạn khỏe chứ?</string>
     <string name="checkbmi">ĐO CHỈ SỐ NGAY</string>
@@ -35,11 +33,12 @@
     <string name="kbnow">KHAI BÁO NGAY</string>
     <string name="setappointment">Đặt lịch khám</string>
     <string name="setpillreminder">Đặt lịch uống thuốc</string>
+    <string name="healthprofile">Hồ sơ sức khỏe</string>
     <string name="setamedicalappointment">Đặt lịch hẹn khám</string>
     <string name="appointmentinfo">Thông tin về lịch hẹn</string>
     <string name="hospitalname">Bệnh viện</string>
     <string name="majority">Khoa</string>
-    <string name="doctorname">Bác sĩ</string>
+    <string name="doctorname">Bác Sĩ</string>
     <string name="time">Thời gian</string>
     <string name="Reason">Lý do khám</string>
     <string name="Note">Ghi chú thêm</string>
@@ -60,7 +59,6 @@
     <string name="profile">Tiểu sử</string>
     <string name="urqr">Mã QR của bạn</string>
     <string name="personalprofile">Thông tin cá nhân</string>
-    <string name="healthprofile">Hồ sơ sức khỏe</string>
     <string name="vaccinated">Chứng nhận tiêm chủng</string>
     <string name="bmi">Chỉ số sức khỏe</string>
     <string name="yourpillreminder">Lịch Uống thuốc của bạn</string>
@@ -85,9 +83,4 @@
     <string name="otherreminder">Lịch đã đặt</string>
     <string name="pillinfo">Thông tin về thuốc</string>
     <string name="pillsreminder">Đặt lịch uống thuốc</string>
-
-
-
-
-
 </resources>

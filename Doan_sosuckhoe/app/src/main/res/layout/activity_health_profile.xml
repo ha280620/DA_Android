@@ -40,7 +40,7 @@
                     android:layout_centerInParent="true"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center_horizontal"
-                    android:text="Hồ Sơ Sức Khỏe"
+                    android:text="@string/healthprofile"
                     android:textColor="@color/black"
                     android:textSize="25dp" />
             </RelativeLayout>
@@ -120,7 +120,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
                             android:layout_marginLeft="10dp"
-                            android:text="Thông tin chung"
+                            android:text="@string/basicinfo"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -143,7 +143,7 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Họ và Tên"
+                            android:hint="@string/fullname"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -153,7 +153,7 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Ngày Tháng Năm Sinh"
+                            android:hint="@string/dob"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -163,7 +163,7 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Giới tính"
+                            android:hint="@string/Gender"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -173,7 +173,7 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Số điện thoại"
+                            android:hint="@string/phonenumber"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -183,7 +183,7 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Mã số bảo hiểm y tế"
+                            android:hint="@string/healthid"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -193,7 +193,7 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Số hộ chiếu/CMNN/CCCD"
+                            android:hint="@string/personalid"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -203,7 +203,7 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Địa chỉ"
+                            android:hint="@string/address"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -231,7 +231,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="20dp"
-                            android:text="Thông tin bệnh lý"
+                            android:text="@string/personalhealthinfo"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -253,19 +253,19 @@
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Nhóm máu"
+                            android:hint="@string/bloodtype"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
                         <EditText
                             android:id="@+id/txt_cannang"
-                            android:paddingLeft="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="48dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Cân nặng"
-                            android:inputType="textPersonName" />
+                            android:hint="@string/height"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="20dp" />
 
                         <EditText
                             android:id="@+id/txt_chieucao"
@@ -274,7 +274,7 @@
                             android:layout_height="40dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Chiều cao"
+                            android:hint="@string/weight"
                             android:inputType="textPersonName" />
                         <EditText
                             android:id="@+id/txt_tieusu"
@@ -285,7 +285,7 @@
                             android:layout_height="200dp"
                             android:layout_margin="10dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Tiểu sử"
+                            android:hint="@string/profile"
                             android:inputType="textPersonName" />
 
 
@@ -307,7 +307,7 @@
                             android:textColor="#fff"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="Hủy bỏ"
+                            android:text="@string/Cancel"
                             android:textSize="20dp"
 
                             />
@@ -316,7 +316,7 @@
                             android:textColor="#fff"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="Lưu"
+                            android:text="@string/Save"
                             android:textSize="20dp"
 
                             />

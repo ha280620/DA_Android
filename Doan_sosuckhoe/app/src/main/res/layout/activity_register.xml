@@ -48,42 +48,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Xin Chào"
+                android:text="@string/LGhello"
                 android:textSize="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Vui lòng cung cấp thông tin chính xác để chúng tôi cung cấp dịch vụ ngay cho bạn"
+                android:text="@string/RGslogan"
                 android:textSize="15dp" />
 
             <EditText
                 android:id="@+id/txt_fullname"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Họ và tên"
+                android:hint="@string/fullname"
                 android:paddingLeft="20dp" />
 
             <EditText
                 android:id="@+id/txt_phonenumber"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Số điện thoại"
+                android:hint="@string/phonenumber"
                 android:paddingLeft="20dp" />
 
             <EditText
@@ -92,7 +82,7 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:paddingLeft="20dp" />
 
@@ -102,7 +92,7 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Confirm Password"
+                android:hint="@string/confirmpassword"
                 android:inputType="textPassword"
                 android:paddingLeft="20dp" />
 
@@ -113,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:minHeight="48dp"
-                android:text="Tôi đã đọc và đồng ý với các điều khoản và chính sách của Catus-13" />
+                android:text="@string/termofuse" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -126,7 +116,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/custom_button"
-                    android:text="Đăng Ký"
+                    android:text="@string/register"
                     android:textColor="#fff"
                     android:textFontWeight="400"
                     android:textSize="25dp" />
@@ -149,7 +139,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="Đã có tài khoản?"
+                        android:text="@string/alreadyhaveaccount"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintRight_toLeftOf="@id/glregister2"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -160,7 +150,7 @@
 
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="Đăng nhập ngay"
+                        android:text="@string/gotologin"
                         android:textColor="#03A9F4"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintLeft_toRightOf="@id/glregister2"

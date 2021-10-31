@@ -96,7 +96,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:fontFamily="sans-serif-black"
-                            android:text="Hôm Nay"
+                            android:text="@string/Today"
                             android:textColor="@color/black"
                             android:textSize="25dp" />
 
@@ -127,14 +127,14 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-black"
-                                    android:text="Lịch hẹn khám"
+                                    android:text="@string/Appointment"
                                     android:textColor="@color/black"
                                     android:textSize="25dp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="8:30 bệnh viện K"
+                                    android:text="@string/appointmentdetails"
                                     android:textColor="@color/black"
                                     android:textSize="15dp" />
 
@@ -403,26 +403,29 @@
 
                         </LinearLayout>
                         <LinearLayout
-                            android:layout_margin="10dp"
+                            android:layout_marginTop="20dp"
                             android:gravity="center"
+                            android:layout_marginBottom="50dp"
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
                             <Button
+                                android:layout_margin="10dp"
                                 android:background="@drawable/custom_button"
                                 android:textColor="#fff"
                                 android:layout_width="250dp"
                                 android:layout_height="wrap_content"
-                                android:text="Đặt lịch thuốc"
+                                android:text="@string/setpillreminder"
                                 android:textSize="20dp"
                                 android:layout_weight="1"
                                 />
                             <Button
+                                android:layout_margin="10dp"
                                 android:background="@drawable/custom_button"
                                 android:textColor="#fff"
                                 android:layout_width="250dp"
                                 android:layout_height="wrap_content"
-                                android:text="Đặt lịch khám"
+                                android:text="@string/setamedicalappointment"
                                 android:textSize="20dp"
                                 android:layout_weight="1"
                                 />

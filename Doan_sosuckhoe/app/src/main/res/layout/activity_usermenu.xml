@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:textStyle="bold"
-                    android:text="Xin chào, Nguyễn Văn Hà"
+                    android:text="@string/helloUser"
                     android:textSize="16dp" />
             </LinearLayout>
         </LinearLayout>
@@ -99,7 +99,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Mã QR của bạn"
+                            android:text="@string/urqr"
                             android:textSize="16dp" />
 
                         <ImageView
@@ -122,7 +122,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
-                            android:text="Thông tin cá nhân"
+                            android:text="@string/personalprofile"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
                         //Icon Personal Info
@@ -147,7 +147,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_PersonalInfo"
-                                android:text="Thông tin cá nhân"
+                                android:text="@string/personalprofile"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -182,7 +182,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_HealthProfile"
-                                android:text="Hồ sơ sức khỏe"
+                                android:text="@string/healthprofile"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -217,7 +217,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/VaccinatedCertifcate"
-                                android:text="Chứng nhận tiêm chủng"
+                                android:text="@string/vaccinated"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -252,7 +252,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_BMI"
-                                android:text="Chỉ số sức khỏe"
+                                android:text="@string/bmi"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -287,7 +287,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_PillReminder"
-                                android:text="Lịch uống thuốc của bạn"
+                                android:text="@string/yourpillreminder"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -313,7 +313,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:text="Hỗ trợ"
+                            android:text="@string/support"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -338,7 +338,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_OnlineSupport"
-                                android:text="Hỗ trợ trực tuyến"
+                                android:text="@string/onlinesupport"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -373,7 +373,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_Language"
-                                android:text="Ngôn ngữ"
+                                android:text="@string/language"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -408,7 +408,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_RulenTerms"
-                                android:text="Điều khoản và chính sách"
+                                android:text="@string/terms"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -435,7 +435,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:text="Cài đặt bảo mật"
+                            android:text="@string/Security"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -460,7 +460,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_FingerPrint"
-                                android:text="Đăng nhập bằng vân tay"
+                                android:text="@string/biosmetric"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -495,7 +495,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_ChangePassword"
-                                android:text="Đổi mật khẩu"
+                                android:text="@string/changepassword"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 
@@ -531,7 +531,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerVertical="true"
                                 android:layout_toRightOf="@+id/icon_LogOut"
-                                android:text="Đăng Xuất"
+                                android:text="@string/logout"
                                 android:textColor="@color/black"
                                 android:textSize="18dp" />
 

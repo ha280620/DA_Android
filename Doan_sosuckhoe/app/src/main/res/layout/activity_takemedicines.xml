@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="45dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="Hồ sơ sức khỏe"
+                    android:text="@string/pillsreminder"
                     android:textColor="@color/black"
                     android:textSize="25dp" />
             </LinearLayout>
@@ -82,7 +82,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
-                            android:text="Thông tin về thuốc"
+                            android:text="@string/pillinfo"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -105,7 +105,7 @@
                             android:layout_height="40dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Loại thuốc"
+                            android:hint="@string/medname"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -115,7 +115,7 @@
                             android:layout_height="40dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Đơn vị"
+                            android:hint="@string/medtype"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -125,27 +125,7 @@
                             android:layout_height="40dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Thời gian"
-                            android:inputType="textPersonName"
-                            android:paddingLeft="20dp" />
-
-                        <EditText
-                            android:id="@+id/txt_tba"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
-                            android:background="@drawable/custom_madicine1"
-                            android:hint="Uống trước bữa ăn"
-                            android:inputType="textPersonName"
-                            android:paddingLeft="20dp" />
-
-                        <EditText
-                            android:id="@+id/txt_sba"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
-                            android:background="@drawable/custom_madicine1"
-                            android:hint="Uống sau bữa ăn"
+                            android:hint="@string/timer"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -155,7 +135,7 @@
                             android:layout_height="40dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/custom_madicine1"
-                            android:hint="Từ ngày đến ngày"
+                            android:hint="@string/dbd"
                             android:inputType="textPersonName"
                             android:paddingLeft="20dp" />
 
@@ -173,7 +153,7 @@
                             android:textColor="#fff"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="Lưu"
+                            android:text="@string/Save"
                             android:textSize="20dp"
 
                             />
@@ -191,7 +171,7 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:fontFamily="sans-serif-black"
-                            android:text="Lịch đã đặt"
+                            android:text="@string/otherreminder"
                             android:textColor="@color/black"
                             android:textSize="25dp" />
                         <LinearLayout
@@ -221,14 +201,14 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-black"
-                                    android:text="Lịch hẹn khám"
+                                    android:text="@string/PillReminder"
                                     android:textColor="@color/black"
                                     android:textSize="25dp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="8:30 bệnh viện K"
+                                    android:text="@string/Pill"
                                     android:textColor="@color/black"
                                     android:textSize="15dp" />
 

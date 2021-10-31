@@ -46,14 +46,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Xin Chào,"
+                android:text="@string/LGhello"
                 android:textSize="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Vui lòng đăng nhập để sử dụng dịch vụ"
+                android:text="@string/LGslogan"
                 android:textSize="15dp" />
 
             <EditText
@@ -62,7 +62,7 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Username / SDT"
+                android:hint="@string/username"
                 android:paddingLeft="20dp" />
 
             <EditText
@@ -71,7 +71,7 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/custom_madicine1"
-                android:hint="Mật khẩu"
+                android:hint="@string/password"
                 android:paddingLeft="20dp" />
 
             <TextView
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:gravity="right"
-                android:text="Quên mật khẩu?"
+                android:text="@string/forgotmypassword"
                 android:textColor="@color/purple_500" />
 
             <LinearLayout
@@ -94,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:background="@drawable/custom_button"
-                    android:text="Đăng Nhập"
+                    android:text="@string/login"
                     android:textColor="#fff"
                     android:textFontWeight="400"
                     android:textSize="25dp" />
@@ -110,7 +110,8 @@
                         android:id="@+id/imgFingerPrint"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:background="@drawable/icon_fingerprint" />
+                        android:background="@drawable/icon_fingerprint"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -121,7 +122,7 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true"
                             android:paddingLeft="10dp"
-                            android:text="Đăng nhập bằng vân vay" />
+                            android:text="@string/fingerprint" />
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -143,7 +144,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="Chưa có tài khoản?"
+                        android:text="@string/alreadyhaveaccount"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintRight_toLeftOf="@id/glLogin2"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -153,7 +154,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="Đăng ký ngay"
+                        android:text="@string/gotoregister"
                         android:textColor="#03A9F4"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintLeft_toRightOf="@id/glLogin2"
