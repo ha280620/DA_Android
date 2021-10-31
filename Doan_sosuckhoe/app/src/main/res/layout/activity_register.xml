@@ -77,12 +77,16 @@
                 android:paddingLeft="20dp" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="48dp" />
             </LinearLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+=======
+            <EditText
+>>>>>>> parent of ba0d88f (Merge branch 'main' into Quan)
 =======
             <EditText
 >>>>>>> parent of ba0d88f (Merge branch 'main' into Quan)
