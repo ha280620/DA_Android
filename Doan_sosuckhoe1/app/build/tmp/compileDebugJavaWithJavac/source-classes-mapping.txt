@@ -1,0 +1,36 @@
+com/example/doan_sosuckhoe/Takemedicines.java
+ com.example.doan_sosuckhoe.Takemedicines
+com/example/doan_sosuckhoe/SetReminderPill.java
+ com.example.doan_sosuckhoe.SetReminderPill
+com/example/doan_sosuckhoe/Homeuser.java
+ com.example.doan_sosuckhoe.Homeuser
+com/example/doan_sosuckhoe/Usermenu.java
+ com.example.doan_sosuckhoe.Usermenu
+com/example/doan_sosuckhoe/Appointment.java
+ com.example.doan_sosuckhoe.Appointment
+com/example/doan_sosuckhoe/BuildConfig.java
+ com.example.doan_sosuckhoe.BuildConfig
+com/example/doan_sosuckhoe/Register.java
+ com.example.doan_sosuckhoe.Register
+com/example/doan_sosuckhoe/Reminder.java
+ com.example.doan_sosuckhoe.Reminder
+com/example/doan_sosuckhoe/BMI.java
+ com.example.doan_sosuckhoe.BMI
+com/example/doan_sosuckhoe/PersonalInfomation.java
+ com.example.doan_sosuckhoe.PersonalInfomation
+com/example/doan_sosuckhoe/Login.java
+ com.example.doan_sosuckhoe.Login
+com/example/doan_sosuckhoe/Medicalappointment.java
+ com.example.doan_sosuckhoe.Medicalappointment
+com/example/doan_sosuckhoe/HealthProfile.java
+ com.example.doan_sosuckhoe.HealthProfile
+com/example/doan_sosuckhoe/Healthindex.java
+ com.example.doan_sosuckhoe.Healthindex
+com/example/doan_sosuckhoe/ViewPagerAdapter.java
+ com.example.doan_sosuckhoe.ViewPagerAdapter
+com/example/doan_sosuckhoe/Homepage.java
+ com.example.doan_sosuckhoe.Homepage
+ com.example.doan_sosuckhoe.Homepage$1
+com/example/doan_sosuckhoe/MainActivity.java
+ com.example.doan_sosuckhoe.MainActivity
+ com.example.doan_sosuckhoe.MainActivity$1

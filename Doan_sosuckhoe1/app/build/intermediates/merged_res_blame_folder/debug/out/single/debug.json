@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_hososuckhoe.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_hososuckhoe.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_hssk.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_hssk.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_tt_camera.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\tt_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_index1.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_index1.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_green.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_tuvanbacsi.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\tuvanbacsi.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_hososuckhoe.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\hososuckhoe.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_medicine.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_medicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_tt_user.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\tt_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_medicalappointment.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_medicalappointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_login.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\background_login.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_remi_user.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\remi_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_maqr.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\maqr.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_calendar.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_appointment.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_ellipse.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_ellipse.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_chisosuckhoecuaban.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\chisosuckhoecuaban.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_ngonngua.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_ngonngua.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_khaibaoyte.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\khaibaoyte.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_healthindex.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_healthindex.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_user.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_vacinated_cetification.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_vacinated_cetification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_setremindpill.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_setremindpill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_android.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\background_android.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_notification.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_vantay.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_vantay.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_bottombar.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_bottombar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_tt_khung.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\tt_khung.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_datlichuongthuoc.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\datlichuongthuoc.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_hososuckhoe.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_hososuckhoe.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_verify_otp.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_verify_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_button.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_chungnhantiemchung.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\chungnhantiemchung.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_datlichkham.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\datlichkham.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_phone.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_tt_line.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\tt_line.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_android.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\logo_android.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_bottom.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\menu\\menu_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_medicine.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_medicine.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_personal_infomation.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_personal_infomation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bmi.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_bmi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_ngonnguvn.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_ngonnguvn.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_email.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_email.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_user.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_custom_medical1.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable-v24\\custom_medical1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_dangxuat.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_dangxuat.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_index.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_index.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_chisosuckhoe.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_chisosuckhoe.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_qr.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_qr.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_qrcode.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_doimatkhau.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_doimatkhau.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icon_fingerprint.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable-v24\\icon_fingerprint.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_fingerprint_login.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\fingerprint_login.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_thongtincanhan.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_thongtincanhan.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_userqr.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_userqr.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_hotrotructuyen.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_hotrotructuyen.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_madicine1.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_madicine1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_ngonngu.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_ngonngu.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_dichvukhac.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_dichvukhac.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_user.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\img_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reminder.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_baohiemyte.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\baohiemyte.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_homeuser.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_homeuser.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_datkham.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_datkham.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_takemedicines.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_takemedicines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_red.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_homepage.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_homepage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_home.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_dieukhoanvachinhsach.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\user_dieukhoanvachinhsach.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_qr.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_qr.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_taomaqr.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\taomaqr.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_user1.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\img_user1.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_usermenu.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_usermenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_left.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_health_profile.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_health_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_userimage.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\userimage.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_back.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_login.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\logo_login.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_lich.png.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\icon_lich.png"
+    },
+    {
+        "merged": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_user1.xml.flat",
+        "source": "C:\\Users\\Nguyen Le QUan\\Documents\\GitHub\\DA_Android\\Doan_sosuckhoe\\app\\src\\main\\res\\drawable\\custom_user1.xml"
+    }
+]

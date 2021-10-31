@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">862928213701-sg60p54ct2vhhfg0c1d2airen5qe6a8b.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">862928213701</string>
+    <string name="google_api_key" translatable="false">AIzaSyCa_7PVF5luv4hteWJwG8M_d7zgs9M4XcM</string>
+    <string name="google_app_id" translatable="false">1:862928213701:android:e4f96df22caa300996c2ac</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCa_7PVF5luv4hteWJwG8M_d7zgs9M4XcM</string>
+    <string name="google_storage_bucket" translatable="false">so-y-te-dien-tu.appspot.com</string>
+    <string name="project_id" translatable="false">so-y-te-dien-tu</string>
+</resources>
