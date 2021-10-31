@@ -8,8 +8,7 @@
         android:icon="@drawable/icon_calendar"/>
     <item android:id="@+id/action_QR"
         android:title="@string/action_QR"
-        android:icon="@drawable/icon_qr"
-        />
+        android:icon="@drawable/icon_qr"/>
     <item android:id="@+id/action_notify"
         android:title="@string/action_notify"
         android:icon="@drawable/icon_notification"/>

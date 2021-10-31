@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -32,12 +32,6 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                <ImageView
-                    android:id="@+id/tro_lai"
-                    android:layout_marginLeft="20dp"
-                    app:srcCompat="@drawable/icon_back"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
 
                     <ImageView
                         android:id="@+id/GoBack"
@@ -142,8 +136,7 @@
                             android:paddingLeft="20dp" />
 
                         <EditText
-                            android:id="@+id/txt_tg"
-                            android:paddingLeft="20dp"
+                            android:id="@+id/txt_tgian"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
@@ -153,8 +146,7 @@
                             android:paddingLeft="20dp" />
 
                         <EditText
-                            android:id="@+id/txt_lydo"
-                            android:paddingLeft="20dp"
+                            android:id="@+id/txt_lydokham"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
@@ -164,8 +156,7 @@
                             android:paddingLeft="20dp" />
 
                         <EditText
-                            android:id="@+id/txt_ghichu"
-                            android:paddingLeft="20dp"
+                            android:id="@+id/txt_ghichuthem"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
@@ -183,7 +174,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
                         <Button
-                            android:id="@+id/btn_luu"
                             android:background="@drawable/custom_button"
                             android:textColor="#fff"
                             android:layout_width="150dp"
@@ -200,7 +190,6 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/lich_su_dat"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
@@ -472,4 +461,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

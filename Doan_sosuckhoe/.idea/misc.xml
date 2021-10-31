@@ -30,6 +30,7 @@
         <entry key="..\:/Doan_sosuckhoe/app/src/main/res/layout/activity_takemedicines.xml" value="0.25416666666666665" />
         <entry key="..\:/Doan_sosuckhoe/app/src/main/res/layout/activity_usermenu.xml" value="0.25416666666666665" />
         <entry key="..\:/Doan_sosuckhoe/app/src/main/res/menu/menu_bottom.xml" value="0.25416666666666665" />
+<<<<<<< HEAD
         <entry key="..\:/Users/ACER/Dropbox/My PC (LAPTOP-42EV1F8L)/Documents/lap-trinh-thiet-bi-di-dong/DA_Android/Doan_sosuckhoe/app/src/main/res/drawable/green.xml" value="0.18198198198198198" />
         <entry key="..\:/Users/ACER/Dropbox/My PC (LAPTOP-42EV1F8L)/Documents/lap-trinh-thiet-bi-di-dong/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_appointment.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/ACER/Dropbox/My PC (LAPTOP-42EV1F8L)/Documents/lap-trinh-thiet-bi-di-dong/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_bmi.xml" value="0.13020833333333334" />
@@ -51,12 +52,18 @@
         <entry key="..\:/Users/ACER/Dropbox/My PC (LAPTOP-42EV1F8L)/Documents/lap-trinh-thiet-bi-di-dong/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_vacinated_cetification.xml" value="0.16801801801801802" />
         <entry key="..\:/Users/ACER/Dropbox/My PC (LAPTOP-42EV1F8L)/Documents/lap-trinh-thiet-bi-di-dong/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_verify_otp.xml" value="0.2427536231884058" />
         <entry key="..\:/Users/ACER/Dropbox/My PC (LAPTOP-42EV1F8L)/Documents/lap-trinh-thiet-bi-di-dong/DA_Android/Doan_sosuckhoe/app/src/main/res/menu/menu_bottom.xml" value="0.176" />
+=======
+>>>>>>> parent of ba0d88f (Merge branch 'main' into Quan)
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_appointment.xml" value="0.22564102564102564" />
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_bmi.xml" value="0.22564102564102564" />
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_health_profile.xml" value="0.34967320261437906" />
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_healthindex.xml" value="0.4099616858237548" />
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_homepage.xml" value="0.22564102564102564" />
+<<<<<<< HEAD
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_homeuser.xml" value="0.16" />
+=======
+        <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_homeuser.xml" value="0.25" />
+>>>>>>> parent of ba0d88f (Merge branch 'main' into Quan)
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Nguyen Le QUan/Documents/GitHub/DA_Android/Doan_sosuckhoe/app/src/main/res/layout/activity_medicalappointment.xml" value="0.25" />

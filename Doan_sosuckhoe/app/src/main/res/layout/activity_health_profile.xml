@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green"
-    android:orientation="vertical"
-    tools:context=".Homepage">
+    tools:context=".HealthProfile">
 
     <LinearLayout
         tools:ignore="MissingConstraints"
@@ -75,7 +74,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <LinearLayout
+                        <android.support.constraint.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
@@ -106,7 +105,7 @@
                                 app:srcCompat="@drawable/tt_camera" />
 
 
-                        </LinearLayout>
+                        </android.support.constraint.ConstraintLayout>
 
 
                     </LinearLayout>
@@ -332,4 +331,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_200"
+    android:background="@color/green"
     tools:context=".Healthindex">
 
     <LinearLayout
@@ -17,7 +17,6 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <RelativeLayout
                 android:gravity="center"
                 android:layout_margin="10dp"
@@ -29,11 +28,9 @@
                     android:id="@+id/GoBack"
                     android:layout_alignParentLeft="true"
                     app:srcCompat="@drawable/icon_back"
-                    android:id="@+id/trolai"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_alignParentLeft="true"
-                    app:srcCompat="@drawable/icon_back"
+
                     />
 
                 <TextView
@@ -91,6 +88,7 @@
                             android:layout_margin="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+
                             app:srcCompat="@drawable/tt_line" />
 
                         <LinearLayout
@@ -110,7 +108,7 @@
                             android:paddingLeft="20dp" />
 
                         <EditText
-                            android:id="@+id/edtWeight"
+                            android:id="@+id/txt_cannang"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
@@ -120,7 +118,7 @@
                             android:paddingLeft="20dp" />
 
                         <EditText
-                            android:id="@+id/edtSystolic"
+                            android:id="@+id/txt_huyetap"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
@@ -130,7 +128,7 @@
                             android:paddingLeft="20dp" />
 
                         <EditText
-                            android:id="@+id/edtDiastolic"
+                            android:id="@+id/txt_nhiptim"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
                             android:layout_margin="10dp"
@@ -147,7 +145,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
                         <Button
-                            android:id="@+id/btnCheckNow"
                             android:background="@drawable/custom_button"
                             android:textColor="#fff"
                             android:layout_width="250dp"
@@ -162,25 +159,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <TextView
+                        <EditText
                             android:gravity="center"
-                            android:id="@+id/HealthCalResult"
+                            android:id="@+id/txt_hienthi"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
                             android:layout_margin="20dp"
                             android:background="@drawable/custom_medical1"
-                            android:hint="Hiển thị kết quả BMI" />
+                            android:hint="Hiển thị kết quả BMI"
+                            android:inputType="textPersonName" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_marginTop="10dp"
-                        android:layout_marginBottom="40dp"
                         android:gravity="center"
+                        android:layout_marginBottom="40dp"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
                         <Button
-                            android:id="@+id/btn_tuvanbs"
                             android:background="@drawable/custom_button"
                             android:textColor="#fff"
                             android:layout_width="250dp"
@@ -193,4 +190,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

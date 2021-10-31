@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/green">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -62,10 +63,6 @@
                 tools:ignore="MissingConstraints">
 
                 <TextView
-                    android:id="@+id/xinchao_usermenu"
-                    android:layout_marginLeft="20dp"
-                    android:fontFamily="sans-serif-black"
-                    android:textSize="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -155,7 +152,6 @@
                                 android:textSize="18dp" />
 
                             <ImageView
-                                android:id="@+id/ttcn"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_alignParentRight="true"
@@ -191,8 +187,6 @@
                                 android:textSize="18dp" />
 
                             <ImageView
-                                android:id="@+id/hs_sk"
-                                android:layout_marginLeft="138dp"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_alignParentRight="true"
@@ -228,7 +222,6 @@
                                 android:textSize="18dp" />
 
                             <ImageView
-                                android:id="@+id/cn_tc"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_alignParentRight="true"
@@ -264,8 +257,6 @@
                                 android:textSize="18dp" />
 
                             <ImageView
-                                android:id="@+id/cs_sk"
-                                android:layout_marginLeft="134dp"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_margin="10dp"
@@ -565,4 +556,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
